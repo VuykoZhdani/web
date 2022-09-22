@@ -1,0 +1,240 @@
+.part3{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content_of_section.sec3{
+    display: block;
+}
+
+.big_text3{
+    font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+color: #0B132A;
+
+    text-align: center;
+}
+
+.small_text3{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #4F5665;
+}
+
+.card_part3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback3{
+    width: 350.46px;
+height: 230px;
+    padding: 20px;
+    max-width: 30%;
+    border: solid lightgrey;
+    border-radius: 15px;
+    cursor: pointer;
+
+    margin-left: 43px;
+    margin-right: 43px;
+
+}
+
+.feedback3:hover{
+    border-color: #F53838;
+    background: rgb(255,249,249);
+    background: radial-gradient(circle, rgba(255,249,249,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.top{
+    display: flex;
+    max-width: 97%;
+    justify-content: space-between;
+}
+
+.description{
+    display: flex;
+}
+
+.name{
+    font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #0B132A;
+}
+
+.address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #4F5665;
+}
+
+.text_part_left3{
+    margin-left: 20px;
+    align-items: center;
+}
+
+.bottom{
+    width: 297.89px;
+height: 100px;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/*display: flex;
+align-items: center;*/
+color: #0B132A;
+    
+    /*font-size: 1.6rem;
+    line-height: 30px;
+    max-width: 97%;*/
+
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_part_right3{
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+
+.subscribe_for{
+    padding: 50px;
+    margin: 150px auto -170px auto;
+    display: flex;
+    max-width: 1207px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe_content_left h1{
+    font-weight: 500;
+font-size: 35px;
+line-height: 45px;
+display: flex;
+align-items: center;
+color: #0B132A;
+}
+
+.subscribe_content_left h2{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #4F5665;
+
+}
+
+.subscribe_content_right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.subscribe_button{
+    border-radius: 7px;
+    margin: auto 0;
+    padding: 18px 36px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+    border: none;
+    width: 250px;
+height: 60px;
+left: 967px;
+top: 2123.5px;
+}
+
+.subscribe_button:hover{
+    cursor: pointer;
+}
+
+.subscribe_shadow{
+    border-radius: 7px;
+    background-color: red;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-top: -10px;
+    padding: 7px;
+    filter: blur(30px);
+}
+
+.button{
+    padding: 40px;
+    width: 50%;
+}
+@media screen and (max-width: 1096px){
+    .card_part3{
+        justify-content: center;
+    }
+    .card3.c1, .card3.c3{
+        display: none;
+    }
+
+    .card3.c2{
+        max-width: 295px;
+        width: 100%;
+    }
+
+    .subscribe_button{
+        max-width: 190px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .card3.c2{
+        text-align: left;
+    }
+    .subscribe_for{
+        display: block;
+    }
+    .subscribe_content_left,
+    .subscribe_content_left h1,
+    .subscribe_content_left h2,
+    .subscribe_shadow,
+    .button{
+        margin: 10px auto;
+    }
+    .subscribe_content_left h1{
+        padding-right: 100px;
+    }
+    .subscribe_content_right{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        padding: 0;
+    }
+    .subscribe_shadow{
+        max-width: 190px;
+    }
+    .subscribe_button{
+        text-align: center;
+    }
+}
