@@ -1,0 +1,10 @@
+@import "./normalize.min.css";
+@import "./globals.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./part_1.css";
+@import "./part_2.css";
+@import "./part_3.css";
+@import "./end.css";
+@import "./hamburger.css";
+@import "./animation.css"

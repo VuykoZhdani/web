@@ -1,0 +1,35 @@
+.need{
+    background: rgb(246,245,245);
+    background: linear-gradient(0deg, rgba(246,245,245,1) 35%, rgba(255,255,255,1) 84%, rgba(244,243,243,1) 100%);
+}
+.big_text1{
+    margin-left: 147px;
+    font-weight: 500;
+    font-size: 5rem;
+    color: #0B132A;
+}
+
+.small_text1{
+    margin-left: 147px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #4F5665;
+}
+.text_part1{
+    margin-top: 80px;
+}
+.image_need{
+    align-items:flex-end;
+    margin-left: 40px;
+    float: right;
+    text-align:left;
+    animation: floating 3s linear infinite;
+}
+@media screen and(max-width:900px){
+     .image_need img  {
+        display: none;
+    }
+    .need{
+        margin: 0 auto;
+    }
+}
