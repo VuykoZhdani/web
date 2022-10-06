@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    align-items: center;
+}
+
+.Form-element{
+    margin: auto;
+
+    font-size: 20px;
+}
+.button{
+    background-color: brown;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 5px #060404;
+    display: flex;
+    margin-top: 10px;
+}
+
+.content{
+    margin: auto auto;
+}
+.home-content{
+    padding-top: 50px;
+    display: flex;
+    width: max-content;
+    margin: auto;
+}
+
+table{
+    border: solid black;
+}
+
+.link{
+    background-color: brown;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 5px #060404;
+    display: flex;
+    margin-top: 10px;
+}
+
+.navigation{
+    margin: auto;
+}
+
+.field-label{
+    margin: 0 auto;
+    width: max-content;
+}
+
+.field{
+    background-color: brown;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 5px #060404;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.adding-form{
+    vertical-align: middle;
+    height: 421px;
+    align-items: center;
+    top: 50%; 
+}
+
+.editing-form{
+    vertical-align: middle;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    top: 50%; 
+}
+
+.divide{
+    width: 200px;
+}

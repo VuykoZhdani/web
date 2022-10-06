@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta Name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="costum.css">
+</head>
+<body>
+    <header class="head">
+        <nav class="navigation">
+            <input type="button" class="link" onclick="goHome()" value="Home">
+            <input type="button" class="link" onclick="goAdd()" value="Add Hotels">
+            <input type="button" class="link" onclick="goEdit()" value="Edit Hotels">
+        </nav>
+    </header>
+    <section class="home-content" id="home-content">
+        <section id = "screen">
+            <section style="display: none; width: max-content; margin: auto;" id = "summary-Price">
+
+            </section>
+        </section>
+        <section class="divide">
+        </section>
+        <section class = "Form">
+            <div class="home-content">
+                <div class="container">
+                    
+                    <div class = "Form-element">
+                        <label for="input"> Name</label>
+                    </div>
+                    <div class = "Form-element">
+                        <input type="text" id = "input">
+                    </div>
+                    <div class="Form-element">
+                        <input class = "button" type="button" id = "find-by-Name" value = "Find by the Name of creator" onclick="findByName(arrayOfHotels)">
+                    </div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "count-summary-Price" value = "Count Summary Price" onclick="countByPrice(newArray)"></div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "reset" value = "Reset" onclick="reset()"></div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "sort-by" value = "Sort by Number of lamps" onclick="sortByPrice(newArray)"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="adding-form" id="adding-content">
+        <div class="field">
+            <div class="field-label">
+                <label for="Price-field">Price</label>
+            </div>
+            <div class="field-text">
+                <input type="Number" id="Price-field">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field-label">
+                <label for="Number-field">Number of rooms</label>
+            </div>
+            <div class="field-text">
+                <input type="Number" id="Number-field">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field-label">
+                <label for="Name-field">Name of creator</label>
+            </div>
+            <div class="field-text">
+                <input type="text" id="Name-field">
+            </div>
+        </div>
+        <div class="field">
+            <input type="button" value="Add" onclick="validateInput()">
+        </div>
+    </section>
+    <section class="editing-form" id="editing-content">
+        <section id="screen-editing">
+        </section>
+        <section class="divide">
+
+        </section>
+        <section class="adding-form">
+            <div class="field">
+                <div class="field-label">
+                    <label for="Price-edit-field">Price</label>
+                </div>
+                <div class="field-text">
+                    <input type="Number" id="Price-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <div class="field-label">
+                    <label for="Number-edit-field">Number of rooms</label>
+                </div>
+                <div class="field-text">
+                    <input type="Number" id="Number-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <div class="field-label">
+                    <label for="Name-edit-field">Name</label>
+                </div>
+                <div class="field-text">
+                    <input type="text" id="Name-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <input type="button" value="Save changes" onclick="changeObject()">
+            </div>
+        </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
