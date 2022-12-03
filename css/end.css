@@ -1,0 +1,35 @@
+footer{
+    background-color: #f7f7fa;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content_of_section_foot{
+    padding-top: 100px;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+.left_part4{
+    padding-top: 10px;
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+.logo_image{
+    display: flex;
+    margin-right: 10px;
+}
+.laslesVPN{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 590px){
+    .content_of_section.foot{
+        flex-direction: column;
+    }
+    .laslesVPN.foot{
+        display: none;
+    }
+}

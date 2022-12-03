@@ -1,0 +1,32 @@
+.hamburger{
+    margin: -250px 0 auto auto;
+    background-color: #e7ecff;
+    clip-path: circle(0 at left top);
+    transition-property: clip-path, margin;
+    transition-duration: 0.9s, 0.9s;
+    transition-delay: 0s, 0.9s;
+}
+
+.menus {
+    font-size: 4rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.menus li{
+    list-style-type: none;
+    max-width: 224px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 980px){
+    .hamburger.open {
+        
+        margin: 0 auto;
+        clip-path: circle(1000px at left top);
+        transition-property: clip-path, margin;
+        transition-duration: 0.9s, 0.9s;
+        transition-delay: 0.9s, 0s;
+    }
+}
+
