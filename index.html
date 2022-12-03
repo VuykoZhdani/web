@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta Name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotels</title>
+    <link rel="stylesheet" href="costum.css">
+</head>
+<body>
+    <header class="head">
+        <nav class="navigation">
+            <a id = "switchToHomeButton" class="link"> Home </a>
+            <a id = "switchToAddingButton" class="link"> Add  </a>
+            <a id = "switchToEditingButton" class="link"> Edit  </a>
+        </nav>
+    </header>
+    <section class="home-content" id="home-content">
+        <section id = "screen">
+            <section style="display: none; width: max-content; margin: auto;" id = "summary-Price">
+
+            </section>
+        </section>
+        <section class="divide">
+        </section>
+        <section class = "Form">
+            <div class="home-content">
+                <div class="container">
+                    
+                    <div class = "Form-element">
+                        <label for="input"> Name</label>
+                    </div>
+                    <div class = "Form-element">
+                        <input type="text" id = "input">
+                    </div>
+                    <div class="Form-element">
+                        <input class = "button" type="button" id = "find-by-Name" value = "Find by the Name of hotel">
+                    </div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "count-summary-Price" value = "Count Summary Price" ></div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "reset" value = "Reset"></div>
+                    <div class = "Form-element"><input class = "button" type="button" id = "sortByPrice-by" value = "sortByPrice by Number of rooms"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="adding-form" id="adding-content">
+        <div class="field">
+            <div class="field-label">
+                <label for="Price-field">Price</label>
+            </div>
+            <div class="field-text">
+                <input type="Number" id="Price-field">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field-label">
+                <label for="Number-field">Number of rooms</label>
+            </div>
+            <div class="field-text">
+                <input type="Number" id="Number-field">
+            </div>
+        </div>
+        <div class="field">
+            <div class="field-label">
+                <label for="Name-field">Name of hotel</label>
+            </div>
+            <div class="field-text">
+                <input type="text" id="Name-field">
+            </div>
+        </div>
+        <div class="field">
+            <input  id = "validateInputButton" type="button" value="Add">
+        </div>
+    </section>
+    <section class="editing-form" id="editing-content">
+        <section id="screen-editing">
+        </section>
+        <section class="divide">
+
+        </section>
+        <section class="adding-form">
+            <div class="field">
+                <div class="field-label">
+                    <label for="Price-edit-field">Price</label>
+                </div>
+                <div class="field-text">
+                    <input type="Number" id="Price-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <div class="field-label">
+                    <label for="Number-edit-field">Number of rooms</label>
+                </div>
+                <div class="field-text">
+                    <input type="Number" id="Number-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <div class="field-label">
+                    <label for="Name-edit-field">Name</label>
+                </div>
+                <div class="field-text">
+                    <input type="text" id="Name-edit-field">
+                </div>
+            </div>
+            <div class="field">
+                <input id = "delete" type="button" value="Delete">
+                <input id = "save_changes" type="button" value="Save changes" onclick="changeObject()">
+            </div>
+        </section>
+    </section>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
