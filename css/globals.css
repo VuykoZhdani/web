@@ -1,0 +1,85 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1207px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+li {
+    display: block;
+}
+
+.def_button {
+ width: 250px;
+height: 60px;
+left: 147px;
+top: 492.29px;
+background: #F53838;
+border-radius: 10px;
+color: #FFFFFF;
+padding: 0%;
+border: none;
+justify-content: space-around;
+margin-left: 147px;
+ cursor:pointer;
+}
+.but_shadow{
+    border-radius: 7px;
+    background-color: red;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-top: -10px;
+    padding: 7px;
+    filter: blur(30px);
+    margin-left: 147px;
+}
+.page{
+width: 1441px;
+height: 2423px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+.content_of_section{
+    max-width: 1207px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*margin-top: 90px;*/
+    padding-bottom: 80px;
+    align-items: center;
+    margin-left: 166px;
+}
+@media screen and (max-width: 1204px){
+    body{
+        padding: 0 40px;
+    }
+}
+@media screen and (max-width: 980px){
+    body{
+        text-align: center;
+    }
+    .def_button,.but_shadow{
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    .container {
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1800px){
+    html{
+        font-size: 15px;
+    }
+}

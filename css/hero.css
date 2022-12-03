@@ -1,0 +1,24 @@
+/*.image_need{
+    background-image:url("/css/images/Illustration\ 1.png ");
+    background-repeat: no-repeat;
+    background-position: right_side top;
+    background: url("/css/images/Illustration\ 1.png ");
+}*/
+.intro_header{
+font-weight: 500;
+font-size: 50px;
+line-height: 70px;
+color: #0B132A;
+margin-left: 147px;
+}
+.intro_paragraph{
+margin-top: 20px;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #4F5665;
+margin-left: 147px;
+}
+.intro_defbut{
+    margin-top: 50px;
+}
