@@ -1,0 +1,44 @@
+import styled from 'styled-components'
+import { purple, lightBlue } from './colors'
+
+export const FooterContainer = styled.footer`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: ${purple};
+    width: 90%;
+    padding: 1% 5% 0 5%;
+`
+
+export const FooterContent = styled.div`
+    padding-bottom: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid ${lightBlue};
+`
+
+export const FooterText = styled.div`
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: ${lightBlue};
+    font-size: 20px;
+    h1 {
+        font-size: 48px;
+    }
+`
+
+export const LinksContainer = styled.div`
+    width: 30%;
+`
+
+export const FooterCopyright = styled.div`
+    padding: 48px 0;
+    color: ${lightBlue};
+    font-size: 32px;
+    font-Stars: 600;
+`
