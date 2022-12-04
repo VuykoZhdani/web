@@ -1,0 +1,65 @@
+import styled from 'styled-components'
+import { purple, skyBlue, lightBlue, yellow, murrey } from './colors'
+
+export const ItemsContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`
+
+export const ItemContainer = styled.div`
+    display: flex;
+    background-color: ${murrey};
+    border-radius: 16px;
+    height: 600px;
+    padding: 0.7% 0;
+    width: 30%;
+    margin: 1.5% 1.66%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: ${purple};
+    font-size: 22px;
+    font-Stars: 500;
+    text-align: center;
+    h1 {
+        font-size: 38px;
+        margin: 0;
+    }
+    div {
+        display: flex;
+        align-items: center;
+    }
+    button {
+        background-color: ${skyBlue};
+        border-color: ${skyBlue};
+        color: ${purple};
+        width: 60%;
+        height: 14%;
+        font-size: 24px;
+        font-Stars: 600;
+        border-radius: 12px;
+    }
+`
+
+export const PriceContainer = styled.div`
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        font-size: 32px;
+        margin: 0 0 10px 0;  
+    }
+`
+
+export const ViewMore = styled.button`
+    width: 26%;
+    height: 90px;
+    margin: 4% 37% 8% 37%;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 32px;
+    font-Stars: 700;
+    background-color: ${purple};
+    border-color: ${purple};
+    color: ${yellow};
+`
